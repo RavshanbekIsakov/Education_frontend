@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Light", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+    outline: none;
+}
+
+input[type=search]{
+    padding: 10px 15px;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.signup:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.login:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

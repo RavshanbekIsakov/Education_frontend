@@ -1,0 +1,67 @@
+body {
+    padding: 0 40px;
+}
+
+header {
+    padding: 35px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header p {
+    color: #1c3554;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.search_block {
+    width: 25%;
+    position: relative;
+}
+.search_block i{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+input.search {
+    width: 90%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+
+}
+
+.login, .signup {
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.login {
+    border: 2px solid #1c3554;
+    background-color: white;
+    color: #1c3554;
+}
+
+.signup {
+    border: 2px solid #F72585;
+    background-color: #F72585;
+    color: white;
+}
+
+.banner {
+    background-color: #021934;
+    padding: 80px 64px 0 64px;
+}
+.banner_content {
+
+    display: flex;
+    width: 45%;
+}
+.banner_content h1, .banner_content p{
+    color: white;
+    flex-direction: column;
+}
+.banner-header-text {
+    font-size: 64px;
+}
