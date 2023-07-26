@@ -50,18 +50,225 @@ input.search {
 }
 
 .banner {
-    background-color: #021934;
+    background-color: #6e94c1;
     padding: 80px 64px 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 .banner_content {
 
     display: flex;
-    width: 45%;
-}
-.banner_content h1, .banner_content p{
-    color: white;
+    width: 50%;
     flex-direction: column;
+
 }
+
+.banner_content h1,
+.banner_content p {
+    color: white;
+}
+
+.banner_content p {
+    margin-bottom: 65px;
+}
+
 .banner-header-text {
     font-size: 64px;
+    margin-bottom: 45px;
 }
+
+.banner_content .search_block {
+    width:100% ;
+    margin-bottom: 55px;
+}
+
+.banner_content .search_block input {
+    padding: 20px 10px;
+}
+
+.banner_content .search_block i {
+    top: 25px;
+    right: 15%;
+}
+
+.banner_content .search_block input,
+.banner_content .search_block i {
+    font-size: 20px;
+}
+
+.banner-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 90px;
+}
+
+
+.banner-preview {
+    width: 50%;
+}
+.banner-preview img {
+    max-width: 100%;
+}
+
+/*.popular-course {*/
+/*    background-color: #F72585;*/
+/*    display: flex;*/
+/*    width: 12%;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.popular-course-text {*/
+/*    max-width: 10%;*/
+/*}*/
+
+
+.animate-charcter
+{
+    background-image: linear-gradient(
+            -225deg,
+            #231557 0%,
+            #8971a2 29%,
+            #333132 67%,
+            #545450 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.main {
+    padding: 0 100px;
+}
+
+main section h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.course-categories {
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+.section-course-header {
+    margin-bottom: 5%;
+}
+
+.course-categories p {
+    color: #AAAA;
+}
+.category-btn-active {
+    background-color: #F72585;
+    color: white !important;
+
+
+}
+.courses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.course-card {
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.card-preview {
+    margin-bottom: 30px;
+    position: relative;
+
+}
+.course-card .card-preview img {
+    width: 100%;
+}
+
+.course-card  .card-preview .button {
+    background-color: #1c3554;
+    padding: 30px;
+    color: white;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    bottom: -15px;
+    left: 23%;
+    font-size: 15px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #1c3554;
+    font-weight: bold;
+}
+
+.card-title p {
+    margin-bottom: 20px;
+}
+.card-title p:not(:first-child) {
+    font-size: 16px;
+}
+
+.card-title .course-author {
+    color: #F72585;
+    font-size: 14px;
+    font-weight: bold;
+}
+.stars  i{
+    color: #ffc500;
+}
+
+.stars .index-of-votes {
+    color: #1df805;
+    font-size: smaller;
+}
+
+.card-title span.price-then {
+    font-size: 16px;
+    color: #363636;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.trends p.category-btn-active {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+.vs_code/
+tmp/
+*.tmp
+
