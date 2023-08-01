@@ -1,0 +1,52 @@
+.sidemap {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.sidemap span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sidemap span i {
+    font-size: 10px;
+    margin: 0 10px;
+    color: #1c3554;
+}
+.sidemap span {
+    color: #545450;
+}
+
+.sidemap span.sidemap-active {
+    color: #1c3554;
+}
+
+.trending-courses h2 {
+    font-size: 64px;
+    display: flex;
+    color: #1c3554;
+    text-align: right;
+    margin: 20px 40px 20px 50px;
+}
+
+.trending-courses p {
+    color: #808080;
+    margin: 20px 40px 20px 40px;
+    width: 40%;
+    text-align: left;
+}
+
+.course-list h2 {
+    font-size: 32px;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 90px;
+}
+
+.course-card {
+    width: 100%;
+}
